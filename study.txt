@@ -1,0 +1,16 @@
+// 포트는 6077로 고정
+
+웹 소켓 선언 , 채팅 읽고 보내주는 거 도움주는 input output
+그리고 콘솔에 적을 수 있는 scanner
+
+inetaddress는 자바에서 IP주소를 표할때 사용하는 클래스
+	-> getAddress() inetadress객체의 ip주소 반환
+	-> gethostaddress IP주소 반환 : 로컬컴퓨터 ip주소 122.122.0.1
+	-> getHostname () 호스트 이름 문자열로 : 로컬컴퓨터 이름  PHE-PC
+
+소켓 바인드는 포트에 소켓을 만드는거
+accept()는 실행을 멈추고 클라이언트가 이 포트로 연결될때까지 무한 대기
+
+InetSoketAddress는 유일한 소켓 클래스의 서브클래스
+클라이언트의 경우에 호스트와 포트 또는 서버의 경우에 포트
+
